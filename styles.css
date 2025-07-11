@@ -9,15 +9,15 @@ body {
 }
 
 header {
-  background: linear-gradient(145deg, #0a0a23, #1f2a3c);
-  padding: 40px 20px;
+  background: #1f2a3c;
+  padding: 20px;
   text-align: center;
   color: white;
 }
 
 header img {
-  max-width: 300px;
-  width: 90%;
+  max-width: 200px;
+  margin-bottom: 10px;
 }
 
 .section {
@@ -33,6 +33,12 @@ header img {
 
 .services ul {
   padding-left: 20px;
+  list-style: none;
+}
+
+.services ul li::before {
+  content: "✔️ ";
+  color: #daaa00;
 }
 
 .highlight {
